@@ -1,11 +1,10 @@
 {
-  "name": "rebass",
+  "name": "logsign-rebass",
   "version": "1.0.4",
   "description": "Functional React UI component library, built with styled-components",
   "main": "dist/index.js",
   "scripts": {
     "prepublish": "babel src -d dist",
-    "prepare": "babel src -d dist",
     "start": "start-storybook -p 8000 -c stories",
     "storybook": "build-storybook -c stories -o docs/stories",
     "cover": "nyc report --reporter=html --reporter=lcov && codecov",
@@ -21,7 +20,7 @@
     "stateless",
     "functional"
   ],
-  "author": "Brent Jackson",
+  "author": "Ozan Turksever",
   "license": "MIT",
   "dependencies": {
     "grid-styled": "^2.0.0-10",
@@ -36,9 +35,9 @@
     "@storybook/addon-options": "^3.2.4",
     "@storybook/react": "^3.2.4",
     "ava": "^0.20.0",
-    "babel-cli": "^6.24.1",
-    "babel-core": "^6.25.0",
-    "babel-preset-env": "^1.5.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.24.1",
     "codecov": "^2.3.0",
@@ -51,12 +50,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jxnblk/rebass.git"
+    "url": "https://github.com/ozanturksever/rebass.git"
   },
   "bugs": {
-    "url": "https://github.com/jxnblk/rebass/issues"
+    "url": "https://github.com/ozanturksever/rebass/issues"
   },
-  "homepage": "https://github.com/jxnblk/rebass",
+  "homepage": "https://github.com/ozanturksever/rebass",
   "ava": {
     "require": [
       "babel-register"
