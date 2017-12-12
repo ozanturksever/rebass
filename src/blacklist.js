@@ -46,4 +46,5 @@ export default [
   'index',
   'direction',
   'text',
+  'small'
 ]
