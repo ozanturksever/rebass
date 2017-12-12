@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "prepublish": "babel src -d dist",
+    "prepare": "babel src -d dist",
     "start": "start-storybook -p 8000 -c stories",
     "storybook": "build-storybook -c stories -o docs/stories",
     "cover": "nyc report --reporter=html --reporter=lcov && codecov",
